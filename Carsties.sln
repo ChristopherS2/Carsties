@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{52BDE386-36ED-4265-B036-E415C073471A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{5FED7DF9-6501-4A6B-8D7D-5976298753D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{52BDE386-36ED-4265-B036-E415C073471A}.Release|x64.Build.0 = Release|Any CPU
 		{52BDE386-36ED-4265-B036-E415C073471A}.Release|x86.ActiveCfg = Release|Any CPU
 		{52BDE386-36ED-4265-B036-E415C073471A}.Release|x86.Build.0 = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|x64.Build.0 = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|x64.ActiveCfg = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|x64.Build.0 = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A5FC5C60-FF0C-415C-A496-13323411046F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{52BDE386-36ED-4265-B036-E415C073471A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5FED7DF9-6501-4A6B-8D7D-5976298753D1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
